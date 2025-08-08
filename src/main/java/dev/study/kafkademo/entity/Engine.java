@@ -44,7 +44,7 @@ public class Engine {
     @Column(name = "rpm", precision = 10, scale = 2)
     private BigDecimal rpm; // Derived from sensor readings
 
-    @Column(name = "pressure", precision = 10, scale = 2)
+    @Column(name = "pressure", precision = 10, scale = 4)
     private BigDecimal pressure; // Derived from sensor readings (psia)
 
     @Column(name = "fuel_flow", precision = 10, scale = 4)
